@@ -1,0 +1,13 @@
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\bin\Debug\GoMartApplication.exe.config
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\bin\Debug\GoMartApplication.exe
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\bin\Debug\GoMartApplication.pdb
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.csproj.AssemblyReference.cache
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.Properties.Resources.resources
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.csproj.GenerateResource.cache
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.exe
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.pdb
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.LoginFrom.resources
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.AboutBox1.resources
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.frmMain.resources
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.frmCategory.resources
