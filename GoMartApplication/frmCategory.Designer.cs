@@ -92,7 +92,7 @@
             this.lblCatID.AutoSize = true;
             this.lblCatID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCatID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(113)))), ((int)(((byte)(2)))));
-            this.lblCatID.Location = new System.Drawing.Point(273, 22);
+            this.lblCatID.Location = new System.Drawing.Point(8, 28);
             this.lblCatID.Name = "lblCatID";
             this.lblCatID.Size = new System.Drawing.Size(66, 24);
             this.lblCatID.TabIndex = 15;

@@ -77,6 +77,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddNewAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewAdmin.Designer.cs">
+      <DependentUpon>frmAddNewAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNewSeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewSeller.Designer.cs">
+      <DependentUpon>frmAddNewSeller.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCategory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +108,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewAdmin.resx">
+      <DependentUpon>frmAddNewAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewSeller.resx">
+      <DependentUpon>frmAddNewSeller.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCategory.resx">
       <DependentUpon>frmCategory.cs</DependentUpon>

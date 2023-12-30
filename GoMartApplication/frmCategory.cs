@@ -41,7 +41,7 @@ namespace GoMartApplication
                 var result = cmd.ExecuteScalar();
                 if (result != null)
                 {
-                    MessageBox.Show(String.Format("Category Name {0} already exist."), "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show(String.Format("Category already exist!"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txtClear();
                 }
                 else
@@ -182,27 +182,31 @@ namespace GoMartApplication
                 }
                 if (lblCatID.Text != String.Empty)
                 {
-                    SqlCommand cmd = new SqlCommand("spCatDelete", dbCon.GetCon());
-                    cmd.Parameters.AddWithValue("@CatID", Convert.ToInt32(lblCatID.Text));
-                    dbCon.OpenCon();
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    int i = cmd.ExecuteNonQuery();
-                    if (i > 0)
+                    if(DialogResult.Yes==MessageBox.Show("Do you want to delete?","Confirmation",MessageBoxButtons.YesNo,MessageBoxIcon.Warning)) 
                     {
-                        MessageBox.Show("Category Deleted Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        txtClear();
-                        BindCategory();
-                        btnUpdate.Visible = false;
-                        btnDelete.Visible = false;
-                        lblCatID.Visible = false;
-                        btnAddCat.Visible = true;
+                        SqlCommand cmd = new SqlCommand("spCatDelete", dbCon.GetCon());
+                        cmd.Parameters.AddWithValue("@CatID", Convert.ToInt32(lblCatID.Text));
+                        dbCon.OpenCon();
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        int i = cmd.ExecuteNonQuery();
+                        if (i > 0)
+                        {
+                            MessageBox.Show("Category Deleted Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            txtClear();
+                            BindCategory();
+                            btnUpdate.Visible = false;
+                            btnDelete.Visible = false;
+                            lblCatID.Visible = false;
+                            btnAddCat.Visible = true;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Delete Fail...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            txtClear();
+                            BindCategory();
+                        }
                     }
-                    else
-                    {
-                        MessageBox.Show("Delete Fail...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        txtClear();
-                        BindCategory();
-                    }
+                   
                 }
             }
             catch(Exception ex)

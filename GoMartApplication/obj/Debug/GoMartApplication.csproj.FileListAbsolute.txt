@@ -8,6 +8,8 @@ C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\Go
 C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.exe
 C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.pdb
 C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.LoginFrom.resources
-C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.AboutBox1.resources
 C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.frmMain.resources
 C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.frmCategory.resources
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.frmAddNewSeller.resources
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.About.resources
+C:\Users\Anonymous\source\repos\GoMartApplication\GoMartApplication\obj\Debug\GoMartApplication.frmAddNewAdmin.resources

@@ -39,8 +39,42 @@ namespace GoMartApplication
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AboutBox1 about = new AboutBox1();
+            About about = new About();
             about.Show();
+        }
+
+        private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Do you really want to close?","Close",MessageBoxButtons.YesNo,MessageBoxIcon.Stop);
+            if(dialog==DialogResult.No) 
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                Application.Exit();
+            }
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Do you really want to close?", "Close", MessageBoxButtons.YesNo, MessageBoxIcon.Stop);
+            if (dialog == DialogResult.No)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void sellerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAddNewSeller fseller = new frmAddNewSeller();
+            fseller.ShowDialog();
+        }
+
+        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAddNewAdmin fadmin = new frmAddNewAdmin();
+            fadmin.ShowDialog();
         }
     }
 }
